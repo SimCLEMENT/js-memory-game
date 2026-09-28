@@ -39,7 +39,6 @@ Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes d
 3. Lancez le fichier `index.html` avec l'extension **Live Server** :
    - Clic droit sur `index.html` → **"Open with Live Server"**
    - Le jeu s'ouvre automatiquement dans votre navigateur à l'adresse `http://127.0.0.1:5500`
-```
 
 ## Auteur
 
