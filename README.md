@@ -1,21 +1,16 @@
-# Jeu de Memory — https://simclement.github.io/js-memory-game/
-Un jeu de memory interactif développé en **Vanilla JavaScript**, sans framework ni librairie externe, dans le cadre du TD "Conception, Déploiement et Documentation d'un Jeu de Memory" (BUT Informatique 2A — R3.01).
+# Jeu de Memory
 
-## Description
+Jeu de memory interactif développé en **Vanilla JavaScript**, sans framework ni librairie externe.
+
+🔗 **Voir le projet en ligne :** https://simclement.github.io/js-memory-game/
+
+## 📖 Contexte
+
+Projet réalisé dans le cadre du TD "Conception, Déploiement et Documentation d'un Jeu de Memory" (BUT Informatique 2A — R3.01), IUT Grand Ouest Normandie (Caen).
 
 Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes disposées aléatoirement sur un plateau de jeu. Les images sont générées dynamiquement via l'API [Picsum Photos](https://picsum.photos/).
 
-## Technologies utilisées
-
-- **HTML5** — structure sémantique de la page
-- **CSS Grid** — mise en page du plateau de jeu (`#game-board`)
-- **JavaScript ES6** — logique du jeu, sans dépendance externe
-  - Littéraux de gabarit (template literals)
-  - Spread Operator
-  - Fonctions fléchées (arrow functions)
-  - `let` / `const`, déstructuration
-
-## Fonctionnalités
+## ✨ Fonctionnalités
 
 - **Génération dynamique** des cartes via l'API Picsum Photos
 - **Algorithme de Fisher-Yates** pour un mélange aléatoire et équitable des cartes
@@ -26,7 +21,17 @@ Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes d
 - **Détection de victoire** avec affichage du score final
 - **Réinitialisation** de la partie (nouveau mélange, nouveau chronomètre)
 
-## Lancement en local
+## 🛠️ Langages et technologies utilisés
+
+- **HTML5** — structure sémantique de la page
+- **CSS Grid** — mise en page du plateau de jeu (`#game-board`)
+- **JavaScript ES6** — logique du jeu, sans dépendance externe
+  - Littéraux de gabarit (template literals)
+  - Spread Operator
+  - Fonctions fléchées (arrow functions)
+  - `let` / `const`, déstructuration
+
+## 🚀 Lancement du projet
 
 1. Clonez le dépôt :
    ```bash
@@ -40,6 +45,6 @@ Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes d
    - Clic droit sur `index.html` → **"Open with Live Server"**
    - Le jeu s'ouvre automatiquement dans votre navigateur à l'adresse `http://127.0.0.1:5500`
 
-## Auteur
+## ✍️ Auteur(s)
 
-Simon — Étudiant BUT Informatique, IUT Grand Ouest Normandie (Caen)
+- Simon CLEMENT
