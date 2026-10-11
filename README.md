@@ -26,24 +26,6 @@ Ce projet consiste à retrouver les paires d'images identiques parmi 16 cartes d
 - **HTML5** — structure sémantique de la page
 - **CSS Grid** — mise en page du plateau de jeu (`#game-board`)
 - **JavaScript ES6** — logique du jeu, sans dépendance externe
-  - Littéraux de gabarit (template literals)
-  - Spread Operator
-  - Fonctions fléchées (arrow functions)
-  - `let` / `const`, déstructuration
-
-## 🚀 Lancement du projet
-
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/SimCLEMENT/js-memory-game.git
-   cd js-memory-game
-   ```
-
-2. Ouvrez le projet dans VS Code.
-
-3. Lancez le fichier `index.html` avec l'extension **Live Server** :
-   - Clic droit sur `index.html` → **"Open with Live Server"**
-   - Le jeu s'ouvre automatiquement dans votre navigateur à l'adresse `http://127.0.0.1:5500`
 
 ## ✍️ Auteur(s)
 
